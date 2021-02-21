@@ -1,0 +1,294 @@
+*{margin:0px;padding:0px}
+
+body{
+	
+	background-image:url('wallpapertip_material-design-wallpapers-desktop_810352.jpg');
+	background-size:cover;
+	background-attachment:fixed;
+}
+
+
+
+div.wrapper nav.navbar{
+	position:fixed;
+	top:0px;
+	z-index:1;
+	display:flex;
+	width:100%;
+	height:53px;
+	background:rgba(0,0,0,0.5);
+}
+
+div.wrapper nav.navbar ul#menu{
+	
+	list-style-type:none;
+	
+	
+}
+div.wrapper nav.navbar ul#menu li{
+	
+	float:left;
+	border-right:1px solid black;
+	border-left:1px solid  White;
+	width: 362px;
+		
+}
+
+div.wrapper nav.navbar ul#menu li:first-child{
+	border-left:none;
+}
+div.wrapper nav.navbar ul#menu li:last-child{
+	border-right:none;
+}
+
+
+div.wrapper nav.navbar h2{
+	margin-top:270px;
+	color:white;
+	font-size:80px;
+	text-align:center;
+}
+
+
+div.wrapper nav.navbar ul#menu li a{
+	
+	text-align:center;
+	text-decoration:none;
+	
+	color:white;
+	
+	display:block;
+	padding:17px;
+	
+	transition:all .5s ease;
+}
+div.wrapper nav.navbar ul#menu li a:hover{
+	background:black;
+	color:#ff4d4d;
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+div.wrapper section{
+	height:790px;
+	border-top:1px solid white;
+	border-bottom:1px solid white;
+}
+div.wrapper section#home{
+	
+	border-top:none;
+	
+}
+div.wrapper section#contact{
+	
+	border-bottom:none;
+}
+
+
+
+
+div.wrapper section#home{
+	
+
+	text-align:center;
+	color:white;
+	
+	padding-top:115px;
+	
+}
+
+a{
+	text-decoration:none;
+	color:red;
+}
+
+abbr{
+	text-decoration:none;
+	
+}
+div.wrapper section#home label h1{
+	font-size:45px;
+	color:yellow;
+	   background: rgb(176,40,40);
+background: linear-gradient(90deg, rgba(176,40,40,0.267740372516194) 0%, rgba(116,81,86,0.4974322492668942) 50%, rgba(53,47,187,0.23412692713804273) 100%); 
+	animation-name:ashik;
+	animation-duration:1s;
+	animation-iteration-count:2;
+	animation-delay:.1s;
+	animation-direction:alternate;
+}
+@keyframes ashik{
+	from{color:yellow;font-size:45px}
+	to{color:#ff4d4d;font-size:55px}
+}
+.scroll{
+	width:100px;
+	height:100px;
+}
+
+
+
+div.wrapper section#about{
+	
+	color:white;
+	padding-left:105px;
+	padding-top:140px;
+}
+
+div.wrapper section#about p{
+	width:500px;
+	height:500px;
+	float:left;
+	padding-left:70px;
+	padding-top:150px;
+	
+	font-size:20px;
+	text-align:center;
+}
+
+div.wrapper section#about h2{
+	
+	
+	background: rgb(176,40,40);
+background: linear-gradient(90deg, rgba(176,40,40,0.267740372516194) 0%, rgba(116,81,86,0.4974322492668942) 50%, rgba(53,47,187,0.23412692713804273) 100%); 
+	
+}
+div.wrapper section#about img.photo{
+	width:500px;
+	height:500px;
+	float:right;
+	border-radius:50%;
+	
+	margin-right:100px;
+	
+	border:2px solid #ff4d4d;
+}
+.scroll2{
+	width:100px;
+	height:100px;
+	margin:530px auto;
+}
+
+div.wrapper section#education ul li ul{
+	
+	padding-left:30px;
+}
+
+div.wrapper section#education{
+	color:white;
+	padding-left:105px;
+	padding-bottom:200px;
+	line-height:150%;
+}
+
+div.wrapper section#education label.education{
+	float:left;
+	padding-top:0px;
+	padding-left:100px;
+	
+	position:relative;
+	
+}
+img.education{
+	width:300px;
+	height:300px;
+}
+
+div.wrapper section#education label.work{
+	float:left;
+	padding-top:300px;
+	padding-left:230px;
+}
+img.work{
+	width:300px;
+	height:300px;
+}
+
+.scroll3{
+	width:100px;
+	height:100px;
+	position:relative;
+	right: 547.5px;
+	top: 700px;
+}
+
+div.wrapper section#contact label.skill{
+	
+	display:block;
+	color:white;
+	width:100%;
+	height:50%;
+	border-bottom:1px solid white;
+	
+	padding-top:50px;
+	}
+
+div.wrapper section#contact label.skill figure{
+	float:left;
+	padding-left:60px;
+	padding-top:60px;
+	
+}
+
+div.wrapper section#contact label.skill figure img{
+	
+	width:200px;
+	height:200px
+}
+
+div.wrapper section#contact label.skill h2{
+	float:left;
+	padding-left: 60px;
+	padding-top: 150px;
+	
+	
+}
+div.wrapper section#contact label.contact{
+	
+	height:300px;
+	
+	display:block;
+	color:white;
+	padding-left:566px;
+}
+
+div.wrapper section#contact label.contact h2{
+	
+		padding-top: 30px;
+	padding-left: 100px;
+	padding-bottom: 50px;
+	
+	
+}
+div.wrapper section#contact label.contact a img{
+	float: left;
+	width: 80px;
+	height: 80px;
+	border-radius: 20%;
+	border:1px solid red;
+	
+}
+div.wrapper section#contact label.copyright{
+	
+	
+	display:block;
+	background:rgba(0,0,0,0.5);
+	height:20px;
+}
+
+div.wrapper section#contact label.copyright p{
+	margin:5px auto;
+	text-align:center;
+	color:white;
+}
+	
+	
